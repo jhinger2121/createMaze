@@ -1,0 +1,44 @@
+.my-header {
+    background-color: rgb(108, 117, 125);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.my-container {
+    width: 70%;
+}
+.main {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer {
+    background-color: rgb(108, 117, 125);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.footer .footer-header {
+    border-right: 1px solid white;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+.footer .footer-info {
+    width: 70%;
+    text-align: center;
+}
+.footer .footer-copyright {
+    border-top: 1px solid white;
+
+}
+.footer .footer-links a{
+    color: white;
+}
+
+.my-about {
+    max-width: 800px;
+    width: 400px;
+}
